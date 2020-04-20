@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.textBoxWindow = new System.Windows.Forms.TextBox();
-            this.buttonTable = new System.Windows.Forms.Button();
+            this.buttonDownload = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.radioButtonA = new System.Windows.Forms.RadioButton();
             this.radioButtonB = new System.Windows.Forms.RadioButton();
@@ -47,13 +47,13 @@
             // 
             // buttonTable
             // 
-            this.buttonTable.Location = new System.Drawing.Point(121, 94);
-            this.buttonTable.Name = "buttonTable";
-            this.buttonTable.Size = new System.Drawing.Size(121, 28);
-            this.buttonTable.TabIndex = 1;
-            this.buttonTable.Text = "Download";
-            this.buttonTable.UseVisualStyleBackColor = true;
-            this.buttonTable.Click += new System.EventHandler(this.buttonTable_Click);
+            this.buttonDownload.Location = new System.Drawing.Point(121, 94);
+            this.buttonDownload.Name = "buttonTable";
+            this.buttonDownload.Size = new System.Drawing.Size(121, 28);
+            this.buttonDownload.TabIndex = 1;
+            this.buttonDownload.Text = "Download";
+            this.buttonDownload.UseVisualStyleBackColor = true;
+            this.buttonDownload.Click += new System.EventHandler(this.ButtonDownload_Click);
             // 
             // label1
             // 
@@ -281,7 +281,7 @@
             this.Controls.Add(this.radioButtonB);
             this.Controls.Add(this.radioButtonA);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonTable);
+            this.Controls.Add(this.buttonDownload);
             this.Controls.Add(this.textBoxWindow);
             this.Name = "FormForCurrency";
             this.Text = "Currency rates";
@@ -293,7 +293,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBoxWindow;
-        private System.Windows.Forms.Button buttonTable;
+        private System.Windows.Forms.Button buttonDownload;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton radioButtonA;
         private System.Windows.Forms.RadioButton radioButtonB;
